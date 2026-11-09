@@ -1,0 +1,161 @@
+{
+ "A_units": 96,
+ "A": [
+  {
+   "alpha": 0.005,
+   "mean_risk": 0.0,
+   "worst_fold_unit": 0.0,
+   "coverage": 0.0,
+   "infeasible_folds": 16,
+   "n_folds": 16
+  },
+  {
+   "alpha": 0.01,
+   "mean_risk": 0.0,
+   "worst_fold_unit": 0.0,
+   "coverage": 0.0,
+   "infeasible_folds": 16,
+   "n_folds": 16
+  },
+  {
+   "alpha": 0.02,
+   "mean_risk": 0.00463,
+   "worst_fold_unit": 0.1111,
+   "coverage": 1.0,
+   "infeasible_folds": 0,
+   "n_folds": 16
+  },
+  {
+   "alpha": 0.03,
+   "mean_risk": 0.00463,
+   "worst_fold_unit": 0.1111,
+   "coverage": 1.0,
+   "infeasible_folds": 0,
+   "n_folds": 16
+  },
+  {
+   "alpha": 0.05,
+   "mean_risk": 0.00463,
+   "worst_fold_unit": 0.1111,
+   "coverage": 1.0,
+   "infeasible_folds": 0,
+   "n_folds": 16
+  },
+  {
+   "alpha": 0.075,
+   "mean_risk": 0.00463,
+   "worst_fold_unit": 0.1111,
+   "coverage": 1.0,
+   "infeasible_folds": 0,
+   "n_folds": 16
+  },
+  {
+   "alpha": 0.1,
+   "mean_risk": 0.00463,
+   "worst_fold_unit": 0.1111,
+   "coverage": 1.0,
+   "infeasible_folds": 0,
+   "n_folds": 16
+  },
+  {
+   "alpha": 0.15,
+   "mean_risk": 0.00463,
+   "worst_fold_unit": 0.1111,
+   "coverage": 1.0,
+   "infeasible_folds": 0,
+   "n_folds": 16
+  },
+  {
+   "alpha": 0.2,
+   "mean_risk": 0.00463,
+   "worst_fold_unit": 0.1111,
+   "coverage": 1.0,
+   "infeasible_folds": 0,
+   "n_folds": 16
+  }
+ ],
+ "A_auroc_corroboration": 0.9852,
+ "A_base_error_plurality": 0.00463,
+ "B_units": 34,
+ "B": [
+  {
+   "alpha": 0.005,
+   "mean_risk": 0.0,
+   "worst_fold_unit": 0.0,
+   "coverage": 0.0,
+   "infeasible_folds": 7,
+   "n_folds": 7
+  },
+  {
+   "alpha": 0.01,
+   "mean_risk": 0.0,
+   "worst_fold_unit": 0.0,
+   "coverage": 0.0,
+   "infeasible_folds": 7,
+   "n_folds": 7
+  },
+  {
+   "alpha": 0.02,
+   "mean_risk": 0.0,
+   "worst_fold_unit": 0.0,
+   "coverage": 0.0,
+   "infeasible_folds": 7,
+   "n_folds": 7
+  },
+  {
+   "alpha": 0.03,
+   "mean_risk": 0.0,
+   "worst_fold_unit": 0.0,
+   "coverage": 0.0,
+   "infeasible_folds": 7,
+   "n_folds": 7
+  },
+  {
+   "alpha": 0.05,
+   "mean_risk": 0.0086,
+   "worst_fold_unit": 0.1429,
+   "coverage": 0.4549,
+   "infeasible_folds": 0,
+   "n_folds": 7
+  },
+  {
+   "alpha": 0.075,
+   "mean_risk": 0.04281,
+   "worst_fold_unit": 0.2857,
+   "coverage": 0.5838,
+   "infeasible_folds": 0,
+   "n_folds": 7
+  },
+  {
+   "alpha": 0.1,
+   "mean_risk": 0.06908,
+   "worst_fold_unit": 0.5,
+   "coverage": 0.6047,
+   "infeasible_folds": 0,
+   "n_folds": 7
+  },
+  {
+   "alpha": 0.15,
+   "mean_risk": 0.10966,
+   "worst_fold_unit": 1.0,
+   "coverage": 0.6199,
+   "infeasible_folds": 0,
+   "n_folds": 7
+  },
+  {
+   "alpha": 0.2,
+   "mean_risk": 0.17153,
+   "worst_fold_unit": 1.0,
+   "coverage": 0.6345,
+   "infeasible_folds": 0,
+   "n_folds": 7
+  }
+ ],
+ "B_auroc_corroboration": 0.8557,
+ "B_base_error_plurality": 0.2674,
+ "B_by_kind_base_error": {
+  "alnum": 0.4855,
+  "numeral": 0.0373,
+  "week_code": 0.0921
+ }
+}

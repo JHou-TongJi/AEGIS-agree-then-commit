@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper."
+title: "AEGIS: Agree, Then Commit — cross-channel verification with distribution-free risk control"
+authors:
+  - family-names: Hou
+    given-names: Jue
+  - family-names: Liu
+    given-names: Xinglong
+  - family-names: Huang
+    given-names: He
+version: 0.2.0
+date-released: 2026-11-07
+license: MIT
+repository-code: "https://github.com/JHou-TongJi/AEGIS-agree-then-commit"
+preferred-citation:
+  type: article
+  title: "Cross-Channel Verification with Distribution-Free Risk Control for Silent Extraction Errors in New Energy Vehicle Production Quality Documents"
+  authors:
+    - family-names: Hou
+      given-names: Jue
+    - family-names: Liu
+      given-names: Xinglong
+    - family-names: Huang
+      given-names: He
+  journal: "IEEE Access"
+  year: 2026
+  status: submitted

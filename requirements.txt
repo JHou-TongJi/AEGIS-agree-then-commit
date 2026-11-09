@@ -1,0 +1,8 @@
+numpy>=1.24
+pandas>=1.5
+matplotlib>=3.7
+opencv-python-headless>=4.8   # fig05, fig07, fig12 only
+pillow>=9
+pytest>=7
+# Only for acquisition/ (re-reading the confidential documents; not needed to reproduce results/):
+#   pip install -e ".[readers]"   and the system packages tesseract-ocr and poppler-utils

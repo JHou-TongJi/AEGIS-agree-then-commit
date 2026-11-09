@@ -1,0 +1,16 @@
+[project]
+name = "aegis-agree-then-commit"
+version = "0.2.0"
+description = "Cross-channel verification with conformal risk control for silent extraction errors in production quality documents"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.24"]
+license = {text = "MIT"}
+
+[project.optional-dependencies]
+figures = ["pandas>=1.5", "matplotlib>=3.7", "opencv-python-headless>=4.8", "pillow>=9"]
+readers = ["easyocr==1.7.2", "torch", "torchvision", "transformers>=4.46", "pytesseract", "pdfplumber"]
+dev = ["pytest>=7"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

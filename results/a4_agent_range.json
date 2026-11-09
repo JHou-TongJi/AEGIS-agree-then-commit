@@ -1,0 +1,288 @@
+{
+ "1.0": {
+  "majority+domain": {
+   "coverage": 0.899306,
+   "committed_error": 0.001287,
+   "residual_risk": 0.001157,
+   "n_wrong_committed": 1,
+   "escalated": 87,
+   "cost_s": 2.047
+  },
+  "cascade+domain": {
+   "coverage": 0.899306,
+   "committed_error": 0.001287,
+   "residual_risk": 0.001157,
+   "n_wrong_committed": 1,
+   "escalated": 87,
+   "cost_s": 1.14191
+  },
+  "agent(cascade+domain+rerender)": {
+   "coverage": 0.913194,
+   "committed_error": 0.001267,
+   "residual_risk": 0.001157,
+   "n_wrong_committed": 1,
+   "escalated": 75,
+   "cost_s": 1.29687
+  }
+ },
+ "1.5": {
+  "majority+domain": {
+   "coverage": 0.947917,
+   "committed_error": 0.001221,
+   "residual_risk": 0.001157,
+   "n_wrong_committed": 1,
+   "escalated": 45,
+   "cost_s": 2.047
+  },
+  "cascade+domain": {
+   "coverage": 0.947917,
+   "committed_error": 0.001221,
+   "residual_risk": 0.001157,
+   "n_wrong_committed": 1,
+   "escalated": 45,
+   "cost_s": 1.10558
+  },
+  "agent(cascade+domain+rerender)": {
+   "coverage": 0.96875,
+   "committed_error": 0.001195,
+   "residual_risk": 0.001157,
+   "n_wrong_committed": 1,
+   "escalated": 27,
+   "cost_s": 1.18709
+  }
+ },
+ "1.6": {
+  "majority+domain": {
+   "coverage": 0.961806,
+   "committed_error": 0.001203,
+   "residual_risk": 0.001157,
+   "n_wrong_committed": 1,
+   "escalated": 33,
+   "cost_s": 2.047
+  },
+  "cascade+domain": {
+   "coverage": 0.961806,
+   "committed_error": 0.001203,
+   "residual_risk": 0.001157,
+   "n_wrong_committed": 1,
+   "escalated": 33,
+   "cost_s": 1.09402
+  },
+  "agent(cascade+domain+rerender)": {
+   "coverage": 0.987269,
+   "committed_error": 0.001172,
+   "residual_risk": 0.001157,
+   "n_wrong_committed": 1,
+   "escalated": 11,
+   "cost_s": 1.1543
+  }
+ },
+ "1.7": {
+  "majority+domain": {
+   "coverage": 0.961806,
+   "committed_error": 0.001203,
+   "residual_risk": 0.001157,
+   "n_wrong_committed": 1,
+   "escalated": 33,
+   "cost_s": 2.047
+  },
+  "cascade+domain": {
+   "coverage": 0.961806,
+   "committed_error": 0.001203,
+   "residual_risk": 0.001157,
+   "n_wrong_committed": 1,
+   "escalated": 33,
+   "cost_s": 1.09402
+  },
+  "agent(cascade+domain+rerender)": {
+   "coverage": 0.987269,
+   "committed_error": 0.001172,
+   "residual_risk": 0.001157,
+   "n_wrong_committed": 1,
+   "escalated": 11,
+   "cost_s": 1.1543
+  }
+ },
+ "2.0": {
+  "majority+domain": {
+   "coverage": 0.961806,
+   "committed_error": 0.001203,
+   "residual_risk": 0.001157,
+   "n_wrong_committed": 1,
+   "escalated": 33,
+   "cost_s": 2.047
+  },
+  "cascade+domain": {
+   "coverage": 0.961806,
+   "committed_error": 0.001203,
+   "residual_risk": 0.001157,
+   "n_wrong_committed": 1,
+   "escalated": 33,
+   "cost_s": 1.09402
+  },
+  "agent(cascade+domain+rerender)": {
+   "coverage": 0.987269,
+   "committed_error": 0.001172,
+   "residual_risk": 0.001157,
+   "n_wrong_committed": 1,
+   "escalated": 11,
+   "cost_s": 1.1543
+  }
+ },
+ "3.0": {
+  "majority+domain": {
+   "coverage": 0.961806,
+   "committed_error": 0.001203,
+   "residual_risk": 0.001157,
+   "n_wrong_committed": 1,
+   "escalated": 33,
+   "cost_s": 2.047
+  },
+  "cascade+domain": {
+   "coverage": 0.961806,
+   "committed_error": 0.001203,
+   "residual_risk": 0.001157,
+   "n_wrong_committed": 1,
+   "escalated": 33,
+   "cost_s": 1.09402
+  },
+  "agent(cascade+domain+rerender)": {
+   "coverage": 0.987269,
+   "committed_error": 0.001172,
+   "residual_risk": 0.001157,
+   "n_wrong_committed": 1,
+   "escalated": 11,
+   "cost_s": 1.1543
+  }
+ },
+ "5.0": {
+  "majority+domain": {
+   "coverage": 0.961806,
+   "committed_error": 0.001203,
+   "residual_risk": 0.001157,
+   "n_wrong_committed": 1,
+   "escalated": 33,
+   "cost_s": 2.047
+  },
+  "cascade+domain": {
+   "coverage": 0.961806,
+   "committed_error": 0.001203,
+   "residual_risk": 0.001157,
+   "n_wrong_committed": 1,
+   "escalated": 33,
+   "cost_s": 1.09402
+  },
+  "agent(cascade+domain+rerender)": {
+   "coverage": 0.987269,
+   "committed_error": 0.001172,
+   "residual_risk": 0.001157,
+   "n_wrong_committed": 1,
+   "escalated": 11,
+   "cost_s": 1.1543
+  }
+ },
+ "6.9": {
+  "majority+domain": {
+   "coverage": 0.961806,
+   "committed_error": 0.001203,
+   "residual_risk": 0.001157,
+   "n_wrong_committed": 1,
+   "escalated": 33,
+   "cost_s": 2.047
+  },
+  "cascade+domain": {
+   "coverage": 0.961806,
+   "committed_error": 0.001203,
+   "residual_risk": 0.001157,
+   "n_wrong_committed": 1,
+   "escalated": 33,
+   "cost_s": 1.09402
+  },
+  "agent(cascade+domain+rerender)": {
+   "coverage": 0.987269,
+   "committed_error": 0.001172,
+   "residual_risk": 0.001157,
+   "n_wrong_committed": 1,
+   "escalated": 11,
+   "cost_s": 1.1543
+  }
+ },
+ "7.0": {
+  "majority+domain": {
+   "coverage": 0.962963,
+   "committed_error": 0.002404,
+   "residual_risk": 0.002315,
+   "n_wrong_committed": 2,
+   "escalated": 32,
+   "cost_s": 2.047
+  },
+  "cascade+domain": {
+   "coverage": 0.962963,
+   "committed_error": 0.002404,
+   "residual_risk": 0.002315,
+   "n_wrong_committed": 2,
+   "escalated": 32,
+   "cost_s": 1.09236
+  },
+  "agent(cascade+domain+rerender)": {
+   "coverage": 0.991898,
+   "committed_error": 0.005834,
+   "residual_risk": 0.005787,
+   "n_wrong_committed": 5,
+   "escalated": 7,
+   "cost_s": 1.14769
+  }
+ },
+ "10.0": {
+  "majority+domain": {
+   "coverage": 0.962963,
+   "committed_error": 0.002404,
+   "residual_risk": 0.002315,
+   "n_wrong_committed": 2,
+   "escalated": 32,
+   "cost_s": 2.047
+  },
+  "cascade+domain": {
+   "coverage": 0.962963,
+   "committed_error": 0.002404,
+   "residual_risk": 0.002315,
+   "n_wrong_committed": 2,
+   "escalated": 32,
+   "cost_s": 1.09236
+  },
+  "agent(cascade+domain+rerender)": {
+   "coverage": 0.991898,
+   "committed_error": 0.005834,
+   "residual_risk": 0.005787,
+   "n_wrong_committed": 5,
+   "escalated": 7,
+   "cost_s": 1.14769
+  }
+ },
+ "1000000000.0": {
+  "majority+domain": {
+   "coverage": 0.962963,
+   "committed_error": 0.002404,
+   "residual_risk": 0.002315,
+   "n_wrong_committed": 2,
+   "escalated": 32,
+   "cost_s": 2.047
+  },
+  "cascade+domain": {
+   "coverage": 0.962963,
+   "committed_error": 0.002404,
+   "residual_risk": 0.002315,
+   "n_wrong_committed": 2,
+   "escalated": 32,
+   "cost_s": 1.09236
+  },
+  "agent(cascade+domain+rerender)": {
+   "coverage": 0.991898,
+   "committed_error": 0.005834,
+   "residual_risk": 0.005787,
+   "n_wrong_committed": 5,
+   "escalated": 7,
+   "cost_s": 1.14769
+  }
+ }
+}

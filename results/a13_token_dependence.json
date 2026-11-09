@@ -1,0 +1,20 @@
+{
+ "tess-easy": {
+  "joint_error": 0.2195,
+  "independent": 0.1825,
+  "ratio": 1.2,
+  "collision": 0.0087
+ },
+ "tess-vlm": {
+  "joint_error": 0.298,
+  "independent": 0.25,
+  "ratio": 1.19,
+  "collision": 0.0029
+ },
+ "easy-vlm": {
+  "joint_error": 0.2166,
+  "independent": 0.1639,
+  "ratio": 1.32,
+  "collision": 0.0029
+ }
+}

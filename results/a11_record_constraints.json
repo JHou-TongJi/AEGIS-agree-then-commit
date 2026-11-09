@@ -1,0 +1,35 @@
+{
+ "masterlist": {
+  "rows": 122,
+  "bijection_holds": 122,
+  "single_misreads": 366,
+  "exposed_by_status": 366,
+  "distribution": {
+   "2": 97,
+   "3": 18,
+   "4": 6,
+   "1": 1
+  }
+ },
+ "week_codes": {
+  "reads": 76,
+  "no_guard": {
+   "vote_coverage": 0.25,
+   "vote_wrong": 0,
+   "silent_reads": {
+    "tess": 8,
+    "easy": 6,
+    "vlm": 1
+   }
+  },
+  "guard": {
+   "vote_coverage": 0.25,
+   "vote_wrong": 0,
+   "silent_reads": {
+    "tess": 8,
+    "easy": 4,
+    "vlm": 1
+   }
+  }
+ }
+}

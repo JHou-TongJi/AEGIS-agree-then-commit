@@ -1,0 +1,20 @@
+# Build artefacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.eggs/
+.pytest_cache/
+
+# Confidential: recognised text of the second token set, and local environment files
+local/
+env.local
+.env
+
+# Working documents (the paper itself is not part of the code release)
+*.docx
+
+# OS noise
+.DS_Store
+Thumbs.db

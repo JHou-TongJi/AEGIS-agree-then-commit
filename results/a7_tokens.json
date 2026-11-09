@@ -1,0 +1,140 @@
+{
+ "numeral": {
+  "n": 268,
+  "single-tess": {
+   "coverage": 0.619403,
+   "committed_error": 0.084337,
+   "cost_s": 0.494
+  },
+  "single-easy": {
+   "coverage": 0.91791,
+   "committed_error": 0.085366,
+   "cost_s": 0.126
+  },
+  "single-vlm": {
+   "coverage": 0.813433,
+   "committed_error": 0.004587,
+   "cost_s": 1.427
+  },
+  "majority-2of3": {
+   "coverage": 0.865672,
+   "committed_error": 0.021552,
+   "cost_s": 2.047
+  },
+  "cascade(easy>tess>vlm)": {
+   "coverage": 0.865672,
+   "committed_error": 0.021552,
+   "cost_s": 1.3122
+  },
+  "acc_tess": 0.567164,
+  "acc_easy": 0.839552,
+  "acc_vlm": 0.809701
+ },
+ "week_code": {
+  "n": 76,
+  "single-tess": {
+   "coverage": 0.342105,
+   "committed_error": 0.307692,
+   "cost_s": 0.494
+  },
+  "single-easy": {
+   "coverage": 0.539474,
+   "committed_error": 0.146341,
+   "cost_s": 0.126
+  },
+  "single-vlm": {
+   "coverage": 0.263158,
+   "committed_error": 0.05,
+   "cost_s": 1.427
+  },
+  "majority-2of3": {
+   "coverage": 0.25,
+   "committed_error": 0.0,
+   "cost_s": 2.047
+  },
+  "cascade(easy>tess>vlm)": {
+   "coverage": 0.25,
+   "committed_error": 0.0,
+   "cost_s": 1.84046
+  },
+  "acc_tess": 0.236842,
+  "acc_easy": 0.460526,
+  "acc_vlm": 0.25
+ },
+ "alnum": {
+  "n": 344,
+  "single-tess": {
+   "coverage": 1.0,
+   "committed_error": 0.549419,
+   "cost_s": 0.494
+  },
+  "single-easy": {
+   "coverage": 0.979651,
+   "committed_error": 0.436202,
+   "cost_s": 0.126
+  },
+  "single-vlm": {
+   "coverage": 1.0,
+   "committed_error": 0.633721,
+   "cost_s": 1.427
+  },
+  "majority-2of3": {
+   "coverage": 0.459302,
+   "committed_error": 0.031646,
+   "cost_s": 2.047
+  },
+  "cascade(easy>tess>vlm)": {
+   "coverage": 0.459302,
+   "committed_error": 0.031646,
+   "cost_s": 1.65292
+  },
+  "acc_tess": 0.450581,
+  "acc_easy": 0.552326,
+  "acc_vlm": 0.366279
+ },
+ "all": {
+  "n": 688,
+  "single-tess": {
+   "coverage": 0.77907,
+   "committed_error": 0.393657,
+   "cost_s": 0.494
+  },
+  "single-easy": {
+   "coverage": 0.906977,
+   "committed_error": 0.278846,
+   "cost_s": 0.126
+  },
+  "single-vlm": {
+   "coverage": 0.84593,
+   "committed_error": 0.378007,
+   "cost_s": 1.427
+  },
+  "majority-2of3": {
+   "coverage": 0.594477,
+   "committed_error": 0.02445,
+   "cost_s": 2.047
+  },
+  "cascade(easy>tess>vlm)": {
+   "coverage": 0.594477,
+   "committed_error": 0.02445,
+   "cost_s": 1.54091
+  },
+  "acc_tess": 0.472384,
+  "acc_easy": 0.65407,
+  "acc_vlm": 0.526163
+ },
+ "acc_by_cond": {
+  "tess_ok": {
+   "100_jpeg": 0.4477,
+   "200_clean": 0.4971
+  },
+  "easy_ok": {
+   "100_jpeg": 0.5465,
+   "200_clean": 0.7616
+  },
+  "vlm_ok": {
+   "100_jpeg": 0.4506,
+   "200_clean": 0.6017
+  }
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "tess": {
+  "acc": 0.733796,
+  "acc_ci": [
+   0.703338,
+   0.762185
+  ],
+  "invalid": 0.180556,
+  "silent": 0.085648,
+  "silent_share_of_errors": 0.321739,
+  "n_errors": 230
+ },
+ "easy": {
+  "acc": 0.893519,
+  "acc_ci": [
+   0.871181,
+   0.912373
+  ],
+  "invalid": 0.084491,
+  "silent": 0.021991,
+  "silent_share_of_errors": 0.206522,
+  "n_errors": 92
+ },
+ "vlm": {
+  "acc": 0.990741,
+  "acc_ci": [
+   0.981836,
+   0.995301
+  ],
+  "invalid": 0.0,
+  "silent": 0.009259,
+  "silent_share_of_errors": 1.0,
+  "n_errors": 8
+ },
+ "taxonomy": {
+  "tess": {
+   "digit substitution": 32,
+   "magnitude x10": 18,
+   "decimal drop": 13,
+   "sign loss": 11
+  },
+  "easy": {
+   "decimal drop": 12,
+   "digit substitution": 5,
+   "sign loss": 1,
+   "magnitude x10": 1
+  },
+  "vlm": {
+   "digit substitution": 3,
+   "decimal drop": 3,
+   "sign loss": 1,
+   "magnitude x10": 1
+  }
+ },
+ "pairs": {
+  "tess-easy": {
+   "joint_error": 0.0394,
+   "independent": 0.0283,
+   "ratio": 1.39,
+   "phi": 0.081,
+   "same_wrong_value": 2
+  },
+  "tess-vlm": {
+   "joint_error": 0.0069,
+   "independent": 0.0025,
+   "ratio": 2.82,
+   "phi": 0.106,
+   "same_wrong_value": 0
+  },
+  "easy-vlm": {
+   "joint_error": 0.0069,
+   "independent": 0.001,
+   "ratio": 7.04,
+   "phi": 0.202,
+   "same_wrong_value": 0
+  }
+ },
+ "n_reads": 864,
+ "n_conditions": 16
+}

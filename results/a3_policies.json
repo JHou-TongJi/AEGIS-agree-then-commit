@@ -1,0 +1,265 @@
+{
+ "single-tess": {
+  "coverage": 0.819444,
+  "committed_error": 0.10452,
+  "residual_risk": 0.085648,
+  "n_wrong_committed": 74,
+  "escalated": 156,
+  "cost_s": 0.494,
+  "by_dpi": {
+   "100": {
+    "coverage": 0.833333,
+    "committed_error": 0.116667,
+    "cost_s": 0.494
+   },
+   "150": {
+    "coverage": 0.796296,
+    "committed_error": 0.122093,
+    "cost_s": 0.494
+   },
+   "200": {
+    "coverage": 0.800926,
+    "committed_error": 0.069364,
+    "cost_s": 0.494
+   },
+   "300": {
+    "coverage": 0.847222,
+    "committed_error": 0.10929,
+    "cost_s": 0.494
+   }
+  }
+ },
+ "single-easy": {
+  "coverage": 0.915509,
+  "committed_error": 0.02402,
+  "residual_risk": 0.021991,
+  "n_wrong_committed": 19,
+  "escalated": 73,
+  "cost_s": 0.126,
+  "by_dpi": {
+   "100": {
+    "coverage": 0.884259,
+    "committed_error": 0.036649,
+    "cost_s": 0.126
+   },
+   "150": {
+    "coverage": 0.912037,
+    "committed_error": 0.015228,
+    "cost_s": 0.126
+   },
+   "200": {
+    "coverage": 0.930556,
+    "committed_error": 0.0199,
+    "cost_s": 0.126
+   },
+   "300": {
+    "coverage": 0.935185,
+    "committed_error": 0.024752,
+    "cost_s": 0.126
+   }
+  }
+ },
+ "single-vlm": {
+  "coverage": 1.0,
+  "committed_error": 0.009259,
+  "residual_risk": 0.009259,
+  "n_wrong_committed": 8,
+  "escalated": 0,
+  "cost_s": 1.427,
+  "by_dpi": {
+   "100": {
+    "coverage": 1.0,
+    "committed_error": 0.023148,
+    "cost_s": 1.427
+   },
+   "150": {
+    "coverage": 1.0,
+    "committed_error": 0.009259,
+    "cost_s": 1.427
+   },
+   "200": {
+    "coverage": 1.0,
+    "committed_error": 0.0,
+    "cost_s": 1.427
+   },
+   "300": {
+    "coverage": 1.0,
+    "committed_error": 0.00463,
+    "cost_s": 1.427
+   }
+  }
+ },
+ "majority-2of3": {
+  "coverage": 0.962963,
+  "committed_error": 0.002404,
+  "residual_risk": 0.002315,
+  "n_wrong_committed": 2,
+  "escalated": 32,
+  "cost_s": 2.047,
+  "by_dpi": {
+   "100": {
+    "coverage": 0.953704,
+    "committed_error": 0.004854,
+    "cost_s": 2.047
+   },
+   "150": {
+    "coverage": 0.958333,
+    "committed_error": 0.0,
+    "cost_s": 2.047
+   },
+   "200": {
+    "coverage": 0.958333,
+    "committed_error": 0.0,
+    "cost_s": 2.047
+   },
+   "300": {
+    "coverage": 0.981481,
+    "committed_error": 0.004717,
+    "cost_s": 2.047
+   }
+  }
+ },
+ "cascade(easy>vlm>tess)": {
+  "coverage": 0.962963,
+  "committed_error": 0.002404,
+  "residual_risk": 0.002315,
+  "n_wrong_committed": 2,
+  "escalated": 32,
+  "cost_s": 1.60675,
+  "by_dpi": {
+   "100": {
+    "coverage": 0.953704,
+    "committed_error": 0.004854,
+    "cost_s": 1.62847
+   },
+   "150": {
+    "coverage": 0.958333,
+    "committed_error": 0.0,
+    "cost_s": 1.6056
+   },
+   "200": {
+    "coverage": 0.958333,
+    "committed_error": 0.0,
+    "cost_s": 1.59645
+   },
+   "300": {
+    "coverage": 0.981481,
+    "committed_error": 0.004717,
+    "cost_s": 1.59645
+   }
+  }
+ },
+ "cascade(easy>tess>vlm)": {
+  "coverage": 0.962963,
+  "committed_error": 0.002404,
+  "residual_risk": 0.002315,
+  "n_wrong_committed": 2,
+  "escalated": 32,
+  "cost_s": 1.09236,
+  "by_dpi": {
+   "100": {
+    "coverage": 0.953704,
+    "committed_error": 0.004854,
+    "cost_s": 1.1287
+   },
+   "150": {
+    "coverage": 0.958333,
+    "committed_error": 0.0,
+    "cost_s": 1.13531
+   },
+   "200": {
+    "coverage": 0.958333,
+    "committed_error": 0.0,
+    "cost_s": 1.04942
+   },
+   "300": {
+    "coverage": 0.981481,
+    "committed_error": 0.004717,
+    "cost_s": 1.05603
+   }
+  }
+ },
+ "cascade+rerender": {
+  "coverage": 0.991898,
+  "committed_error": 0.005834,
+  "residual_risk": 0.005787,
+  "n_wrong_committed": 5,
+  "escalated": 7,
+  "cost_s": 1.66271,
+  "by_dpi": {
+   "100": {
+    "coverage": 0.990741,
+    "committed_error": 0.009346,
+    "cost_s": 1.71038
+   },
+   "150": {
+    "coverage": 0.99537,
+    "committed_error": 0.004651,
+    "cost_s": 1.67772
+   },
+   "200": {
+    "coverage": 1.0,
+    "committed_error": 0.00463,
+    "cost_s": 1.66628
+   },
+   "300": {
+    "coverage": 0.981481,
+    "committed_error": 0.004717,
+    "cost_s": 1.59645
+   }
+  }
+ },
+ "unanimous-3of3": {
+  "coverage": 0.664352,
+  "committed_error": 0.0,
+  "residual_risk": 0.0,
+  "n_wrong_committed": 0,
+  "escalated": 290,
+  "cost_s": 2.047,
+  "by_dpi": {
+   "100": {
+    "coverage": 0.634259,
+    "committed_error": 0.0,
+    "cost_s": 2.047
+   },
+   "150": {
+    "coverage": 0.634259,
+    "committed_error": 0.0,
+    "cost_s": 2.047
+   },
+   "200": {
+    "coverage": 0.699074,
+    "committed_error": 0.0,
+    "cost_s": 2.047
+   },
+   "300": {
+    "coverage": 0.689815,
+    "committed_error": 0.0,
+    "cost_s": 2.047
+   }
+  }
+ },
+ "cascade_calls_histogram": {
+  "1": 0,
+  "2": 578,
+  "3": 286
+ },
+ "cascade_calls_histogram_by_order": {
+  "easy>tess>vlm": {
+   "1": 0,
+   "2": 578,
+   "3": 286
+  },
+  "easy>vlm>tess": {
+   "1": 0,
+   "2": 770,
+   "3": 94
+  }
+ },
+ "cost_per_call_s": {
+  "tess": 0.494,
+  "easy": 0.126,
+  "vlm": 1.427,
+  "rerender": 0.068
+ }
+}

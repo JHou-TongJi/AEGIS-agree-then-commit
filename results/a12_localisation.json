@@ -1,0 +1,142 @@
+{
+ "reference": {
+  "tess": {
+   "acc": 0.7338,
+   "invalid": 0.1806,
+   "silent": 0.0856
+  },
+  "easy": {
+   "acc": 0.8935,
+   "invalid": 0.0845,
+   "silent": 0.022,
+   "auroc_self": 0.4201,
+   "auroc_agree": 0.9865
+  },
+  "vlm": {
+   "acc": 0.9907,
+   "invalid": 0.0,
+   "silent": 0.0093,
+   "auroc_self": 0.929,
+   "auroc_agree": 0.9836
+  },
+  "vote": {
+   "coverage": 0.962963,
+   "committed_error": 0.002404,
+   "residual_risk": 0.002315,
+   "n_wrong_committed": 2,
+   "escalated": 32,
+   "cost_s": 2.047
+  },
+  "cascade": {
+   "coverage": 0.962963,
+   "committed_error": 0.002404,
+   "residual_risk": 0.002315,
+   "n_wrong_committed": 2,
+   "escalated": 32,
+   "cost_s": 1.09236
+  },
+  "vlm_only": {
+   "coverage": 1.0,
+   "committed_error": 0.009259,
+   "residual_risk": 0.009259,
+   "n_wrong_committed": 8,
+   "escalated": 0,
+   "cost_s": 1.427
+  }
+ },
+ "shifted": {
+  "tess": {
+   "acc": 0.8889,
+   "invalid": 0.0428,
+   "silent": 0.0683
+  },
+  "easy": {
+   "acc": 0.9282,
+   "invalid": 0.0544,
+   "silent": 0.0174,
+   "auroc_self": 0.4829,
+   "auroc_agree": 1.0
+  },
+  "vlm": {
+   "acc": 1.0,
+   "invalid": 0.0,
+   "silent": 0.0,
+   "auroc_self": NaN,
+   "auroc_agree": NaN
+  },
+  "vote": {
+   "coverage": 0.989583,
+   "committed_error": 0.0,
+   "residual_risk": 0.0,
+   "n_wrong_committed": 0,
+   "escalated": 9,
+   "cost_s": 2.047
+  },
+  "cascade": {
+   "coverage": 0.989583,
+   "committed_error": 0.0,
+   "residual_risk": 0.0,
+   "n_wrong_committed": 0,
+   "escalated": 9,
+   "cost_s": 0.86609
+  },
+  "vlm_only": {
+   "coverage": 1.0,
+   "committed_error": 0.0,
+   "residual_risk": 0.0,
+   "n_wrong_committed": 0,
+   "escalated": 0,
+   "cost_s": 1.427
+  }
+ },
+ "recrop": {
+  "cascade|R=3": {
+   "coverage": 0.961806,
+   "committed_error": 0.001203,
+   "residual_risk": 0.001157,
+   "n_wrong_committed": 1,
+   "escalated": 33,
+   "cost_s": 1.09402
+  },
+  "cascade+recrop|R=3": {
+   "coverage": 0.996528,
+   "committed_error": 0.001161,
+   "residual_risk": 0.001157,
+   "n_wrong_committed": 1,
+   "escalated": 3,
+   "cost_s": 1.16654
+  },
+  "cascade+rerender|R=3": {
+   "coverage": 0.987269,
+   "committed_error": 0.001172,
+   "residual_risk": 0.001157,
+   "n_wrong_committed": 1,
+   "escalated": 11,
+   "cost_s": 1.1543
+  },
+  "cascade|R=1e+09": {
+   "coverage": 0.962963,
+   "committed_error": 0.002404,
+   "residual_risk": 0.002315,
+   "n_wrong_committed": 2,
+   "escalated": 32,
+   "cost_s": 1.09236
+  },
+  "cascade+recrop|R=1e+09": {
+   "coverage": 0.996528,
+   "committed_error": 0.002323,
+   "residual_risk": 0.002315,
+   "n_wrong_committed": 2,
+   "escalated": 3,
+   "cost_s": 1.16244
+  },
+  "cascade+rerender|R=1e+09": {
+   "coverage": 0.991898,
+   "committed_error": 0.005834,
+   "residual_risk": 0.005787,
+   "n_wrong_committed": 5,
+   "escalated": 7,
+   "cost_s": 1.14769
+  }
+ }
+}

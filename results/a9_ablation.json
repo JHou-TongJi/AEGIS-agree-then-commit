@@ -1,0 +1,84 @@
+{
+ "pairs": {
+  "tess+easy": {
+   "coverage": 0.668981,
+   "committed_error": 0.00346,
+   "residual_risk": 0.002315,
+   "n_wrong_committed": 2,
+   "escalated": 286,
+   "cost_s": 0.62
+  },
+  "tess+vlm": {
+   "coverage": 0.731481,
+   "committed_error": 0.0,
+   "residual_risk": 0.0,
+   "n_wrong_committed": 0,
+   "escalated": 232,
+   "cost_s": 1.921
+  },
+  "easy+vlm": {
+   "coverage": 0.891204,
+   "committed_error": 0.0,
+   "residual_risk": 0.0,
+   "n_wrong_committed": 0,
+   "escalated": 94,
+   "cost_s": 1.553
+  }
+ },
+ "orders": {
+  "easy>tess>vlm": {
+   "coverage": 0.962963,
+   "committed_error": 0.002404,
+   "residual_risk": 0.002315,
+   "n_wrong_committed": 2,
+   "escalated": 32,
+   "cost_s": 1.09236
+  },
+  "easy>vlm>tess": {
+   "coverage": 0.962963,
+   "committed_error": 0.002404,
+   "residual_risk": 0.002315,
+   "n_wrong_committed": 2,
+   "escalated": 32,
+   "cost_s": 1.60675
+  },
+  "tess>easy>vlm": {
+   "coverage": 0.962963,
+   "committed_error": 0.002404,
+   "residual_risk": 0.002315,
+   "n_wrong_committed": 2,
+   "escalated": 32,
+   "cost_s": 1.09236
+  },
+  "tess>vlm>easy": {
+   "coverage": 0.962963,
+   "committed_error": 0.002404,
+   "residual_risk": 0.002315,
+   "n_wrong_committed": 2,
+   "escalated": 32,
+   "cost_s": 1.95483
+  },
+  "vlm>easy>tess": {
+   "coverage": 0.962963,
+   "committed_error": 0.002404,
+   "residual_risk": 0.002315,
+   "n_wrong_committed": 2,
+   "escalated": 32,
+   "cost_s": 1.60675
+  },
+  "vlm>tess>easy": {
+   "coverage": 0.962963,
+   "committed_error": 0.002404,
+   "residual_risk": 0.002315,
+   "n_wrong_committed": 2,
+   "escalated": 32,
+   "cost_s": 1.95483
+  }
+ },
+ "per_callout_summary": {
+  "callouts_never_wrong_any": 2,
+  "callouts_with_agent_error": 1,
+  "callouts_with_escalation": 5,
+  "tess_wrong_ge8": 11
+ }
+}

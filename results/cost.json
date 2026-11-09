@@ -1,0 +1,23 @@
+{
+ "tess": {
+  "mean_s": 0.494,
+  "median_s": 0.498,
+  "n": 30
+ },
+ "easy": {
+  "mean_s": 0.126,
+  "median_s": 0.117,
+  "n": 30
+ },
+ "vlm": {
+  "mean_s": 1.427,
+  "median_s": 1.384,
+  "n": 30
+ },
+ "rerender": {
+  "mean_s": 0.068,
+  "median_s": 0.068,
+  "n": 5
+ },
+ "note": "2 CPU threads, VM; rerender = full-page 300 dpi rasterisation amortised over the 54 callouts on the page"
+}
